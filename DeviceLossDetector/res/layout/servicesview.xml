@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#014051"
+    android:id="@+id/serviceslayout" >
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#014051"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="#4B34A8"
+            android:text="Tap on icon to START/STOP the service"
+            android:textColor="#FFFFFF" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="fill_parent"
+                android:layout_height="125dp"
+                android:layout_gravity="center" >
+
+                <ImageView
+                    android:id="@+id/unlock"
+                    android:layout_width="0dip"
+                    android:layout_height="125dp"
+                    android:layout_weight=".3"
+                    android:background="#FF4F03"
+                    android:padding="6dp"
+                    android:src="@drawable/unlock_1" />
+
+                <ImageView
+                    android:id="@+id/poweroff"
+                    android:layout_width="0dip"
+                    android:layout_height="125dp"
+                    android:layout_weight=".3"
+                    android:background="#FFFFFF"
+                    android:padding="6dp"
+                    android:src="@drawable/poweoff_1" />
+                
+                
+                  <ImageView
+                    android:id="@+id/usbimage"
+                    android:layout_width="0dip"
+                    android:layout_height="125dp"
+                    android:layout_weight=".3"
+                    android:background="#5755FF"
+                    android:padding="6dp"
+                    android:src="@drawable/usb1" />
+                  
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:id="@+id/tableRow11"
+                android:layout_width="fill_parent"
+                android:layout_height="125dp"
+                android:layout_gravity="center" >
+
+                <TextView
+                    android:id="@+id/Unlocktext"
+                    android:layout_width="0dip"
+                    android:layout_height="30dp"
+                    android:layout_weight=".3"
+                    android:background="#FF4F03"
+                    android:padding="6dp"
+                    android:text="UnLock Detection"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/PowerOffDetectiontext"
+                    android:layout_width="0dip"
+                    android:layout_height="30dp"
+                    android:layout_weight=".3"
+                    android:background="#FFFFFF"
+                    android:padding="6dp"
+                    android:text="Power Off Detection"
+                    android:textColor="#FF0000" />
+                
+                  <TextView
+                    android:id="@+id/usbtext"
+                    android:layout_width="0dip"
+                    android:layout_height="30dp"
+                    android:layout_weight=".3"
+                    android:background="#5755FF"
+                    android:padding="6dp"
+                    android:text="USB Unplug Detection"
+                    android:textColor="#FFFFFF" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:id="@+id/tableRow26"
+                android:layout_width="fill_parent"
+                android:layout_height="125dp"
+                android:layout_gravity="center" >
+
+              
+
+                <ImageView
+                    android:id="@+id/fall"
+                    android:layout_width="0dip"
+                    android:layout_height="125dp"
+                    android:layout_weight=".5"
+                    android:background="#B70CE8"
+                    android:padding="6dp"
+                    android:src="@drawable/fall_128" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:id="@+id/tableRow21"
+                android:layout_width="fill_parent"
+                android:layout_height="125dp"
+                android:layout_gravity="center" >
+
+              
+
+                <TextView
+                    android:id="@+id/falldetectiontext"
+                    android:layout_width="0dip"
+                    android:layout_height="30dp"
+                    android:layout_weight=".5"
+                    android:background="#B70CE8"
+                    android:padding="6dp"
+                    android:text="Fall Detection"
+                    android:textColor="#FFFFFF" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>
